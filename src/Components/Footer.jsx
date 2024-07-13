@@ -43,8 +43,8 @@ const Footer = () => {
         <div>
           <img src="/logo.png" alt="" className=" w-[100px]" />
           <p className=" text-[14px] w-[282px] text-[#fff]/50 my-2">
-            The World’s First and largest Digital Marketplace for Crypto
-            Collectibles and Non - Fungible Tokens
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            tempore molestias dolore blanditiis praesentium deleniti!
           </p>
           <div className=" flex gap-[1rem] my-[1rem]">
             <div className=" bg-[#0BDF0E] text-[#000] md:text-[25px] text-[18px] p-[0.7rem] rounded-full hover:text-[#0BDF0E] transition-all ease-linear delay-150 hover:border-[#0BDF0E] hover:bg-transparent hover:border cursor-pointer w-[40px] h-[40px] flex justify-center items-center">
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           <p className=" absolute bottom-3 md:text-[14px] text-[10px] text-[#0BDF0E] ">
-            Copyright © 2024 Blast Penguins. All Rights Reserved
+            Copyright © 2024 . All Rights Reserved
           </p>
         </div>
       </div>

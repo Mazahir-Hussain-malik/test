@@ -44,6 +44,8 @@ const Faqs = () => {
 
   return (
     <div className="py-[3rem] relative  ">
+      <div class="hidden md:block absolute w-[388px] h-[370px] bg-[#0BDF0E] left-8 top-20  blur-[300px]"></div>
+
       <h2 className="md:text-[56px] text-[30px] font-semibold text-[#0BDF0E] text-center my-[2rem]">
         FAQS
       </h2>

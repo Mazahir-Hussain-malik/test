@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* fonts cdn */
+
+html {
+  scroll-behavior: smooth;
+}
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url(/public/header.svg);

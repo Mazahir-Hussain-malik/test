@@ -18,20 +18,20 @@ const Navbar = () => {
       text: "About us",
     },
     {
-      link: "#presale",
+      link: "#Tokenomics",
       text: "Tokenomics",
     },
 
     {
-      link: "#roadmap",
+      link: "#HowtoBuy",
       text: "How to",
     },
     {
-      link: "#PARTNERS",
+      link: "#Roadmap",
       text: "Roadmap",
     },
     {
-      link: "#PARTNERS",
+      link: "#Faqs",
       text: "FAQ",
     },
     {
@@ -88,7 +88,7 @@ const Navbar = () => {
           <nav className="flex md:justify-around  flex-col py-[1.5rem]">
             <div>
               <a className="flex">
-                <img src="/logo.svg" alt="" />
+                <img src="/logo.png" alt="" className=" w-[80px]" />
               </a>
             </div>
             <div className="text-[#fff] absolute right-10 top-10 text-[26px]">
@@ -106,19 +106,19 @@ const Navbar = () => {
                   : "hidden"
               }`}
             >
-              <div className="flex gap-[2rem] absolute left-[5%]   flex-col md:my-0 my-1">
+              <div className="flex gap-[2rem] absolute left-[5%]   flex-col md:my-0 my-[2rem]">
                 {navlinks.map((items, index) => {
                   return (
                     <li
                       key={index}
-                      className="text-[#fff] font-clash-display text-16 font-bold leading-26 tracking-wider uppercase list-none"
+                      className="text-[#fff] font-clash-display text-16   leading-26 tracking-wider  list-none"
                     >
                       <a href={items.link}> {items.text}</a>
                     </li>
                   );
                 })}
               </div>
-              <div className="absolute bottom-[55%] left-[5%]">
+              <div className="absolute bottom-[50%] left-[5%]">
                 <div className="flex gap-[1rem] text-[24px] my-[2rem] ">
                   <a
                     href="https://t.me/KAAthePythonSOL"

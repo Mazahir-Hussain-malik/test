@@ -5,13 +5,27 @@ import Navbar from "./Components/Navbar";
 import Faqs from "./Components/Faqs";
 import Roadmap from "./Components/Roadmap";
 import Footer from "./Components/Footer";
+import HowToBuy from "./Components/HowToBuy";
+import Tokenomics from "./Components/Tokenomics";
 const App = () => {
   return (
     <div className=" ">
       <Navbar />
-      <Header />
-      <Roadmap />
-      <Faqs />
+      <div id="Home">
+        <Header />
+      </div>
+      <div id="Tokenomics">
+        <Tokenomics />
+      </div>
+      <div id="Roadmap">
+        <Roadmap />
+      </div>
+      <div id="HowtoBuy">
+        <HowToBuy />
+      </div>
+      <div id="Faqs">
+        <Faqs />
+      </div>
       <Footer />
     </div>
   );
