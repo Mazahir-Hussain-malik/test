@@ -1,14 +1,18 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
 import Header from "./Components/Header";
-import Form from "./Components/Form";
+import Navbar from "./Components/Navbar";
+import Faqs from "./Components/Faqs";
+import Roadmap from "./Components/Roadmap";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <div className=" ">
       <Navbar />
       <Header />
-      <Form />
+      <Roadmap />
+      <Faqs />
+      <Footer />
     </div>
   );
 };
