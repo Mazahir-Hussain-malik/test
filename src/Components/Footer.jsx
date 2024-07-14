@@ -8,32 +8,23 @@ const Footer = () => {
     {
       id: 1,
       text: "About us",
-      linkto: "/",
+      linkto: "#Home",
     },
-    {
-      id: 2,
-      text: "Tokenomics",
-      linkto: "/about",
-    },
+
     {
       id: 3,
       text: "How to",
-      linkto: "/roadmap",
+      linkto: "#HowtoBuy",
     },
     {
       id: 4,
       text: "Roadmap",
-      linkto: "/Team",
+      linkto: "#Roadmap",
     },
     {
       id: 5,
       text: "FAQ",
-      linkto: "/FAQs",
-    },
-    {
-      id: 5,
-      text: "Whitepaper",
-      linkto: "/FAQs",
+      linkto: "#Faqs",
     },
   ];
 
@@ -43,18 +34,29 @@ const Footer = () => {
         <div>
           <img src="/logo.png" alt="" className=" w-[100px]" />
           <p className=" text-[14px] w-[282px] text-[#fff]/50 my-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            tempore molestias dolore blanditiis praesentium deleniti!
+            <a href="http://www.gmail.com" target="_blank">
+              info@godcoin.world
+            </a>
           </p>
           <div className=" flex gap-[1rem] my-[1rem]">
             <div className=" bg-[#0BDF0E] text-[#000] md:text-[25px] text-[18px] p-[0.7rem] rounded-full hover:text-[#0BDF0E] transition-all ease-linear delay-150 hover:border-[#0BDF0E] hover:bg-transparent hover:border cursor-pointer w-[40px] h-[40px] flex justify-center items-center">
-              <FaInstagram />
+              <a href="https://www.instagram.com/_g.world/" target="_blank">
+                <FaInstagram />
+              </a>
             </div>
             <div className=" bg-[#0BDF0E] text-[#000] md:text-[25px] text-[18px] p-[0.7rem] rounded-full hover:text-[#0BDF0E] transition-all ease-linear delay-150 hover:border-[#0BDF0E] hover:bg-transparent hover:border cursor-pointer w-[40px] h-[40px] flex justify-center items-center">
-              <FaFacebookF />
+              <a
+                href="https://www.facebook.com/profile.php?id=61561656124722"
+                target="_blank"
+              >
+                <FaFacebookF />
+              </a>
             </div>
             <div className=" bg-[#0BDF0E] text-[#000] md:text-[25px] text-[18px] p-[0.7rem] rounded-full hover:text-[#0BDF0E] transition-all ease-linear delay-150 hover:border-[#0BDF0E] hover:bg-transparent hover:border cursor-pointer w-[40px] h-[40px] flex justify-center items-center">
-              <FaTwitter />
+              <a href="  https://x.com/gworldgod" target="_blank">
+                {" "}
+                <FaTwitter />
+              </a>
             </div>
           </div>
         </div>
@@ -63,7 +65,7 @@ const Footer = () => {
             {navlinks.map(({ id, text, linkto }, idx) => {
               return (
                 <a
-                  href="#"
+                  href={linkto}
                   key={id}
                   className=" hover:text-[#0BDF0E] transition-all ease-linear delay-150 md:text-[16px] text-[14px]"
                 >
@@ -71,10 +73,13 @@ const Footer = () => {
                 </a>
               );
             })}
+            <a href="/whitespaper.pdf" target="_blank">
+              Whitepaper
+            </a>
           </div>
 
           <p className=" absolute bottom-3 md:text-[14px] text-[10px] text-[#0BDF0E] ">
-            Copyright © 2024 . All Rights Reserved
+            Copyright ©GOD TOKEN 2024 . All Rights Reserved
           </p>
         </div>
       </div>

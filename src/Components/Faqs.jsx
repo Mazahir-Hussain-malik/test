@@ -12,33 +12,46 @@ const Faqs = () => {
   const data = [
     {
       id: 1,
-      heading: `  Lorem ipsum, dolor sit amet consectetur adipisicing.`,
-      paragraph: ` Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.`,
+      heading: `  1% Daily USDT Rewards`,
+      paragraph: ` Earn 1% of your investment in USDT every day just by 
+holding God Token.`,
     },
     {
       id: 2,
-      heading: `  Lorem ipsum, dolor sit amet consectetur adipisicing.`,
-      paragraph: ` Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.`,
+      heading: `  Backed by Gworld:`,
+      paragraph: ` Your rewards are provided by Gworld, a trusted investment 
+company.`,
     },
     {
       id: 3,
-      heading: `  Lorem ipsum, dolor sit amet consectetur adipisicing.`,
-      paragraph: ` Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.`,
+      heading: ` Easy Access to Investments`,
+      paragraph: ` Get a seamless entry into Gworld's investment 
+opportunities through God Token.`,
     },
     {
       id: 4,
-      heading: `  Lorem ipsum, dolor sit amet consectetur adipisicing.`,
-      paragraph: ` Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.`,
+      heading: `High Liquidity:`,
+      paragraph: ` Trade your God Tokens on exchanges for potentially higher prices.`,
     },
     {
       id: 5,
-      heading: `  Lorem ipsum, dolor sit amet consectetur adipisicing.`,
-      paragraph: ` Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.`,
+      heading: `  Daily Earnings`,
+      paragraph: ` Enjoy the stability of daily USDT rewards.`,
+    },
+    {
+      id: 6,
+      heading: ` Investment Opportunities`,
+      paragraph: `Benefit from Gworld's proven investment strategies`,
+    },
+    {
+      id: 7,
+      heading: ` Growth Potential`,
+      paragraph: `Potential to sell your tokens at higher prices on exchanges.`,
+    },
+    {
+      id: 8,
+      heading: ` Community`,
+      paragraph: `Join a growing community of like-minded investors.`,
     },
   ];
 
@@ -49,6 +62,18 @@ const Faqs = () => {
       <h2 className="md:text-[56px] text-[30px] font-semibold text-[#0BDF0E] text-center my-[2rem]">
         FAQS
       </h2>
+
+      <div className="  md:max-w-[800px] w-[95%]   mx-auto py-[1rem]">
+        <h2 className=" md:text-[22px] text-[18px] font-semibold text-center my-2">
+          What is God Token?
+        </h2>
+        <p className=" text-[14px]">
+          God Token is a revolutionary new crypto token on the GBGC chain. Our
+          mission is to provide crypto enthusiasts with an opportunity to earn
+          daily rewards and gain easy access to high-potential investments
+          through our partnership with Gworld.
+        </p>
+      </div>
       <div className="flex justify-center flex-col items-center gap-[1rem] md:w-[40%] w-[98%]  mx-auto ">
         {data.map((items, index) => {
           return (

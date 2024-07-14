@@ -27,3 +27,27 @@ html {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(/public/RoadmapBgImage.svg);
 }
+.gradient-text {
+  background-image: linear-gradient(90deg, #e67d34, #d45346);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.treasury {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/public/trasuryBgimage.svg);
+}
+
+.mainDiv {
+  /* background: url(../../assets/landingpage/trasuryBgimage.svg),
+    rgb(255, 253, 253) 10% 10% / 200px 200px repeat;
+  opacity: 1; */
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}

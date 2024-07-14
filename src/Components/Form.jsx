@@ -6,7 +6,9 @@ const Form = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div className=" max-w-[600px] relative border border-[#fff]/80   bg-[#000]  rounded-[12px] p-[1.5rem] mx-auto h-[70vh] flex  flex-col">
-      <h2 className=" text-center  text-[40px] ">Buy and stake Slart</h2>
+      <h2 className=" text-center  text-[40px] font-bold  uppercase">
+        Buy and stake GOD
+      </h2>
       <div className="hidden md:block absolute w-[98px] h-[93px] bg-[#0BDF0E] left-8 top-8 blur-[30px]"></div>
 
       <div className=" py-[1rem] flex justify-center gap-[2rem]">
@@ -71,13 +73,13 @@ const Form = () => {
         <div>
           <div className="my-[0.4rem]">
             <label htmlFor="" className=" py-2">
-              SLRT
+              GOD
             </label>
             <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center ">
               <input
                 id="coin-input"
                 required=""
-                placeholder="Enter BNB value"
+                placeholder="Enter GOD value"
                 className="flex-1 h-full  outline-none text-[#fff] bg-transparent"
                 type="text"
               />
@@ -88,7 +90,7 @@ const Form = () => {
               </span>
             </div>
             <div className=" flex justify-center items-center my-8">
-              <Btn text={"BUY SLERT NOW "} />
+              <Btn text={"BUY GOD NOW "} />
             </div>
           </div>
         </div>

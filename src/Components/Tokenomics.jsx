@@ -1,4 +1,5 @@
 import React from "react";
+import { RiTeamFill } from "react-icons/ri";
 
 const Tokenomics = () => {
   return (
@@ -27,33 +28,44 @@ const Tokenomics = () => {
                 src="/logo.png"
                 className=" md:w-[200px] w-[120px]"
               />
-              <span className=" md:text-[30px] text-[20px] font-bold">GOD</span>
+              <span className=" md:text-[30px] text-[20px] font-bold gradient-text">
+                GOD
+              </span>
             </div>
           </div>
-          <h3 className=" font-machina text-[28px] leading-[32px]">
+          <h3 className=" font-semibold text-[28px] leading-[32px]">
             Token Information
           </h3>
           <span className=" whitespace-pre-line text-[14px] font-[350] leading-[22px] font-poppins">
-            The SLART presale is divided into three exciting rounds, giving
-            early adopters the chance to purchase SLART at discounted rates.
-            This is your chance to be part of the SLART community from the
-            ground up. To ensure smooth trading and minimize price volatility,
-            25% of the total supply is dedicated to the liquidity pool. This
-            helps maintain a healthy market for SLART tokens. 20% of the tokens
-            are allocated for development and marketing. These funds will be
-            used to continuously improve the SLART ecosystem and spread the word
-            about our project. 15% of the tokens are reserved for the team and
-            community rewards. This allocation ensures that the team is
-            motivated and rewarded for their efforts, while also engaging the
-            community through airdrops, giveaways, and other activities.
+            The God Token, we believe in the power of decentralized finance to
+            unlock new opportunities for wealth creation. Our primary goal is to
+            offer a secure, transparent, and rewarding investment experience. By
+            holding God Token, our users can earn 1% daily USDT rewards and
+            benefit from the robust investment strategies of Gworld.
+            <br />
+            <br />
+            To ensure smooth trading and minimize price volatility, a
+            substantial portion of the total supply of God Token is
+            strategically allocated. Specifically, 60% of the tokens are
+            reserved for the Rewards Pool, promoting user engagement and
+            long-term participation in the ecosystem. Development receives 10%
+            of the supply, ensuring continuous improvement and innovation within
+            the project. Additionally, 14% is allocated for Partnerships and
+            Ecosystem Growth, fostering collaborations that will expand the
+            reach and utility of God Token. The team and advisors are
+            incentivized with 10%, aligning their interests with the project's
+            success. CEX Listings receive 5%, ensuring God Token is readily
+            available on various exchanges, while 1% is kept in the Treasury for
+            unforeseen needs. This balanced allocation strategy is designed to
+            support sustainable growth and stability for God Token.
           </span>
         </div>
         <div className="md:w-1/2 w-[95%] md:mx-0 mx-auto  flex flex-col gap-[2rem] ">
           <h3 class=" font-machina text-[36px] md:text-[42px] leading-[40px] md:leading-[46px]">
-            500M
+            500Billion - Total Supply
           </h3>
           <span class="text-[14px] md:text-[16px] font-[350] leading-[16px] font-poppins">
-            Slart has a big prospect and also one of the best supply structures.
+            GOD has a big prospect and also one of the best supply structures.
           </span>
           <div className="flex items-center   gap-8 pl-[20px] py-[15px] md:pl-[30px] md:py-[20px] rounded-[4px] bg-[#1D2124]">
             <svg
@@ -71,10 +83,33 @@ const Tokenomics = () => {
             </svg>
             <div className="flex flex-col flex-1">
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
-                Presale
+                Development
               </span>
               <span className="text-[24px] font-machina">
-                40% = (200,000,000 SLART)
+                10% (500,000,000 GOD)
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center   gap-8 pl-[20px] py-[15px] md:pl-[30px] md:py-[20px] rounded-[4px] bg-[#1D2124]">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              color="#0BDF0E"
+              height="30"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M480 496H48a32 32 0 0 1-32-32V32a16 16 0 0 1 32 0v432h432a16 16 0 0 1 0 32z"></path>
+              <path d="M156 432h-40a36 36 0 0 1-36-36V244a36 36 0 0 1 36-36h40a36 36 0 0 1 36 36v152a36 36 0 0 1-36 36zm144 0h-40a36 36 0 0 1-36-36V196a36 36 0 0 1 36-36h40a36 36 0 0 1 36 36v200a36 36 0 0 1-36 36zm143.64 0h-40a36 36 0 0 1-36-36V132a36 36 0 0 1 36-36h40a36 36 0 0 1 36 36v264a36 36 0 0 1-36 36z"></path>
+            </svg>
+            <div className="flex flex-col flex-1">
+              <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
+                CEX Listings
+              </span>
+              <span className="text-[24px] font-machina">
+                5% (250,000,000 GOD)
               </span>
             </div>
           </div>
@@ -93,10 +128,10 @@ const Tokenomics = () => {
             </svg>
             <div className="flex flex-col flex-1">
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
-                Liquidity Pool
+                Treasury
               </span>
               <span className="text-[24px] font-machina">
-                25% (125,000,000 SLART)
+                1% (50,000,000 GOD)
               </span>
             </div>
           </div>
@@ -118,10 +153,10 @@ const Tokenomics = () => {
             </svg>
             <div className="flex flex-col flex-1">
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
-                Liquidity Pool
+                Rewards Pool
               </span>
               <span className="text-[24px] font-machina">
-                25% (125,000,000 SLART)
+                60% (3,000,000,000 GOD)
               </span>
             </div>
           </div>
@@ -143,10 +178,23 @@ const Tokenomics = () => {
             </svg>
             <div className="flex flex-col flex-1">
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
-                Liquidity Pool
+                Partnerships and Ecosystem Growth
               </span>
               <span className="text-[24px] font-machina">
-                25% (125,000,000 SLART)
+                14% (700,000,000 GOD)
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center gap-8 pl-[20px] py-[15px] md:pl-[30px] md:py-[20px] rounded-[4px] bg-[#1D2124]">
+            <div className=" text-[#0BDF0E] text-[30px]">
+              <RiTeamFill />
+            </div>
+            <div className="flex flex-col flex-1">
+              <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
+                Team and Advisors
+              </span>
+              <span className="text-[24px] font-machina">
+                10% (500,000,000 GOD)
               </span>
             </div>
           </div>

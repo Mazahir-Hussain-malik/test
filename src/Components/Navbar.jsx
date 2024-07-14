@@ -34,9 +34,10 @@ const Navbar = () => {
       link: "#Faqs",
       text: "FAQ",
     },
+
     {
-      link: "#PARTNERS",
-      text: "Whitepaper",
+      link: "https://www.mygoodway.world/",
+      text: "GWorld",
     },
   ];
   return (
@@ -46,8 +47,11 @@ const Navbar = () => {
         <div className="md:block hidden">
           <nav className="flex md:justify-around  items-center item-start py-[2rem] md:flex-row flex-col">
             <div>
-              <a className="flex">
+              <a className="flex items-center">
                 <img src="/logo.png" alt="" className=" w-[80px]" />{" "}
+                <h1 class="gradient-text font-[Poppins] text-[35px] font-bold tracking-widest">
+                  GOD
+                </h1>
               </a>
             </div>
             <div className="flex gap-[1.5rem] items-center  md:flex-row flex-col md:my-0 my-2">
@@ -61,18 +65,21 @@ const Navbar = () => {
                   </li>
                 );
               })}
+              <a href="/whitespaper.pdf" target="_blank">
+                Whitepaper
+              </a>
             </div>
             <div className="flex items-center gap-[1rem]">
               <div className="flex gap-[1rem] text-[24px]  ">
                 <a
-                  href="https://t.me/KAAthePythonSOL"
+                  href="https://t.me/+0Rk3y7LzbmZiZmRl"
                   target="_blank"
                   className=" bg-[#0BDF0E]/70 p-[1rem] border border-[#0BDF0E]/70 rounded-full hover:bg-transparent  hover:text-[#0BDF0E]/70 transition-all ease-linear delay-150  "
                 >
                   <BiLogoTelegram className="  " />
                 </a>
                 <a
-                  href="https://twitter.com/KAAcoinSOL"
+                  href="https://x.com/gworldgod "
                   target="_blank"
                   className="  bg-[#0BDF0E]/70 p-[1rem] border border-[#0BDF0E]/70 rounded-full hover:bg-transparent  hover:text-[#0BDF0E]/70 transition-all ease-linear delay-150"
                 >
