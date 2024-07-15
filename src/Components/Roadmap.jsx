@@ -59,23 +59,23 @@ const Roadmap = () => {
             <p className="text-2xl font-semibold text-left capitalize text-white">
               Q2 : Growth and Expansion
             </p>
-            <div className=" flex flex-col md:gap-[0.5rem] gap-[1rem]">
-              <p className="w-full h-[23px]  text-base text-left text-[#c2c3c5]">
+            <div className=" flex flex-col md:gap-[0.9rem] gap-[1rem]">
+              <p className="w-full  text-base text-left text-[#c2c3c5]">
                 Official website launched.
               </p>
 
-              <p className="w-full h-[23px]  md:text-[13px] text-[12px] text-left text-[#c2c3c5]">
+              <p className="w-full  md:text-[14px] text-[12px] text-left text-[#c2c3c5]">
                 Established presence on major social media platforms.
               </p>
 
-              <p className="w-full h-[23px]   md:text-[13px] text-[12px] text-left text-[#c2c3c5]">
+              <p className="w-full   md:text-[14px] text-[12px] text-left text-[#c2c3c5]">
                 Organized AMA sessions, webinars, and events.
               </p>
 
-              <p className="w-full h-[23px]   md:text-[13px] text-[12px] text-left text-[#c2c3c5]">
+              <p className="w-full   md:text-[14px] text-[12px] text-left text-[#c2c3c5]">
                 Began building a community of early adopters and supporters.
               </p>
-              <p className="w-full h-[23px]   md:text-[13px] text-[12px] text-left text-[#c2c3c5]">
+              <p className="w-full   md:text-[14px] text-[12px] text-left text-[#c2c3c5]">
                 Initiated targeted marketing campaigns.
               </p>
             </div>

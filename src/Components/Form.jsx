@@ -11,7 +11,7 @@ const Form = () => {
       </h2>
       <div className="hidden md:block absolute w-[98px] h-[93px] bg-[#0BDF0E] left-8 top-8 blur-[30px]"></div>
 
-      <div className=" py-[1rem] flex justify-center gap-[2rem]">
+      {/* <div className=" py-[1rem] flex justify-center gap-[2rem]">
         <button
           className={` ${
             activeTab == 0
@@ -32,9 +32,9 @@ const Form = () => {
         >
           GOD
         </button>
-      </div>
+      </div> */}
 
-      <div>
+      {/* <div>
         <div className=" flex justify-between w-[90%] mx-auto text-[12px]">
           <p>$200,000</p>
           <p>$2,000,000</p>
@@ -44,14 +44,30 @@ const Form = () => {
           <p>USDT</p>
           <p>GOD</p>
         </div>
+      </div> */}
+      <div className=" flex justify-between items-center my-[1em] ">
+        <div className="flex flex-col gap-[1rem]">
+          <h2 className="md:text-[18px] font-semibold">Stage1/Stage36</h2>
+          <h2 className="md:text-[18px] font-semibold">Total Purchased</h2>
+        </div>
+        <div className="flex flex-col gap-[1rem]">
+          <p>Price increment - $0.06</p>
+          <p>$35000</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <p>Current Price - $0.07</p>
+        </div>
       </div>
       <div className={`${activeTab == 0 ? "block" : "hidden "}`}>
         <div>
           <div className="my-[2rem]">
             <label htmlFor="" className=" py-2">
-              USDT
+              USDT (BEP20)
             </label>
-            <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center ">
+            <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center relative ">
               <input
                 id="coin-input"
                 required=""
@@ -61,7 +77,7 @@ const Form = () => {
               />
               <div className="w-[1px] h-[100%] bg-[#444444]"></div>
               <div className="flex gap-2 items-center" />
-              <span className="text-[12px] text-[#FFFFFFE5] uppercase">
+              <span className="text-[12px] text-[#FFFFFFE5] uppercase absolute right-2 ">
                 USDT
               </span>
             </div>
@@ -73,9 +89,9 @@ const Form = () => {
         <div>
           <div className="my-[0.4rem]">
             <label htmlFor="" className=" py-2">
-              GOD
+              GOD (GBGC20)
             </label>
-            <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center ">
+            <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center relative   ">
               <input
                 id="coin-input"
                 required=""
@@ -85,13 +101,16 @@ const Form = () => {
               />
               <div className="w-[1px] h-[100%] bg-[#444444]"></div>
               <div className="flex gap-2 items-center" />
-              <span className="text-[12px] text-[#FFFFFFE5] uppercase">
+              <span className="text-[12px] text-[#FFFFFFE5] uppercase absolute right-2">
                 GOD
               </span>
             </div>
             <div className=" flex justify-center items-center my-8">
               <Btn text={"BUY GOD NOW "} />
             </div>
+            <p className=" text-[#fff] text-center font-semibold ">
+              LISTING PRICE $3
+            </p>
           </div>
         </div>
       </div>

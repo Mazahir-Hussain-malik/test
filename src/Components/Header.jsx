@@ -14,10 +14,10 @@ const Header = () => {
             The Future of Crypto Investment on the GBGC Chain with Gworld
           </h3>
           <p className="md:max-w-[1200px] w-[95%] mx-auto  md:text-[16px] text-[16px] leading-[33px]">
-            Paragraph - God Token is a revolutionary new crypto token on the
-            GBGC chain. Our mission is to provide crypto enthusiasts with an
-            opportunity to earn daily rewards and gain easy access to
-            high-potential investments through our partnership with Gworld.
+            God Token is a revolutionary new crypto token on the GBGC chain. Our
+            mission is to provide crypto enthusiasts with an opportunity to earn
+            daily rewards and gain easy access to high-potential investments
+            through our partnership with Gworld.
           </p>
           <div className=" md:w-[300px] my-[1rem] md:ml-3 ml-[1rem]">
             <Btn text={"Connect Wallet"} />

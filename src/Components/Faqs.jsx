@@ -17,50 +17,25 @@ const Faqs = () => {
           mission is to provide crypto enthusiasts with an opportunity to earn
           daily rewards and gain easy access to high-potential investments
           through our partnership with Gworld.`,
+      listStyle: "list-none",
     },
-    ,
     {
       id: 1,
-      heading: `  1% Daily USDT Rewards`,
-      paragraph: ` Earn 1% of your investment in USDT every day just by 
-holding God Token.`,
+      heading: `   Why Choose God Token?`,
+      paragraph: `  1% Daily USDT Rewards: Earn 1% of your investment in USDT every day just by holding God Token.`,
+      paragraph1: ` Backed by Gworld: Your rewards are provided by Gworld, a trusted investment company.`,
+      paragraph2: `Easy Access to Investments: Get a seamless entry into Gworld's investment opportunities through God Token.`,
+      paragraph3: `High Liquidity: Trade your God Tokens on exchanges for potentially higher prices.`,
+      listStyle: "list-disc",
     },
     {
       id: 2,
-      heading: `  Backed by Gworld:`,
-      paragraph: ` Your rewards are provided by Gworld, a trusted investment 
-company.`,
-    },
-    {
-      id: 3,
-      heading: ` Easy Access to Investments`,
-      paragraph: ` Get a seamless entry into Gworld's investment 
-opportunities through God Token.`,
-    },
-    {
-      id: 4,
-      heading: `High Liquidity:`,
-      paragraph: ` Trade your God Tokens on exchanges for potentially higher prices.`,
-    },
-    {
-      id: 5,
-      heading: `  Daily Earnings`,
-      paragraph: ` Enjoy the stability of daily USDT rewards.`,
-    },
-    {
-      id: 6,
-      heading: ` Investment Opportunities`,
-      paragraph: `Benefit from Gworld's proven investment strategies`,
-    },
-    {
-      id: 7,
-      heading: ` Growth Potential`,
-      paragraph: `Potential to sell your tokens at higher prices on exchanges.`,
-    },
-    {
-      id: 8,
-      heading: ` Community`,
-      paragraph: `Join a growing community of like-minded investors.`,
+      heading: `   Why Choose God Token?`,
+      paragraph: ` • Daily Earnings: Enjoy the stability of daily USDT rewards.`,
+      paragraph1: `Investment Opportunities: Benefit from Gworld's proven investment strategies.`,
+      paragraph2: `Growth Potential: Potential to sell your tokens at higher prices on exchanges.`,
+      paragraph3: `Community: Join a growing community of like-minded investors.`,
+      listStyle: "list-disc",
     },
   ];
 
@@ -91,11 +66,22 @@ opportunities through God Token.`,
                 </p>
               </div>
               {open === index && (
-                <div className="text-[#C2C3C5] md:text-[18px] text-[16px] font-normal py-[1rem] transition-all ease-in-out delay-150 text-center ">
+                <div
+                  className={`text-[#C2C3C5] md:text-[14px] text-[16px] font-normal py-[1rem] transition-all ease-in-out delay-150 text-center   ${items.listStyle} md:px-[2rem] px-0 `}
+                >
                   <hr className="bg-[#C2C3C5]" />
-                  <p className="md:w-[100%] w-[100%] my-[1rem]">
+                  <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
                     {items.paragraph}
-                  </p>
+                  </li>
+                  <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
+                    {items.paragraph1}
+                  </li>
+                  <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
+                    {items.paragraph2}
+                  </li>
+                  <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
+                    {items.paragraph3}
+                  </li>
                 </div>
               )}
             </div>

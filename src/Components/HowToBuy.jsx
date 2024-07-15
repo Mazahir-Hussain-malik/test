@@ -14,8 +14,8 @@ const HowToBuy = () => {
         </div>
         <div class="md:flex-1 md:flex gap-12">
           <div class="hidden md:flex relative h-[470px]  justify-center">
-            <div class="h-[145vh] border-l-[2px] border-[#9E9E9E] border-dashed"></div>
-            <div class="absolute flex flex-col justify-between h-[180vh] top-0 ">
+            <div class="h-[165vh] border-l-[2px] border-[#9E9E9E] border-dashed"></div>
+            <div class="absolute flex flex-col justify-between h-[210vh] top-0 ">
               <div class="flex items-center justify-center rounded-[50%] w-[34px] h-[34px] border-[1px] border-[#A5A5A5] bg-[#0BDF0E]/80 font-machina text-[18px]">
                 1
               </div>
@@ -35,7 +35,7 @@ const HowToBuy = () => {
             </div>
           </div>
           <div class="flex flex-col gap-4 md:gap-6 ">
-            <div class="relative md:h-[310px] h-auto flex flex-col md:gap-[12px] gap-[1rem] rounded-[8px] bg-[#0BDF0E]/10 border-[1px] border-[#BCBCBC] p-[20px] md:p-[30px] ">
+            <div class="relative md:h-[340px] h-auto flex flex-col md:gap-[12px] gap-[1rem] rounded-[8px] bg-[#0BDF0E]/10 border-[1px] border-[#BCBCBC] p-[20px] md:p-[30px] ">
               <h3 class=" font-machina text-[24px] leading-[24px]">
                 Set Up Your Wallet
               </h3>
@@ -70,6 +70,24 @@ const HowToBuy = () => {
                         target="_blank"
                       >
                         https://mainnet-rpc.gbgcscan.com/
+                      </a>
+                    </li>
+                    <li>
+                      {" "}
+                      <span className=" font-bold  "> Chain ID:</span> 50741
+                    </li>
+                    <li>
+                      {" "}
+                      <span className=" font-bold  "> Symbol: </span> GBGC
+                    </li>
+                    <li className=" flex  gap-[0.5rem]">
+                      {" "}
+                      <span className=" font-bold">
+                        {" "}
+                        Block Explorer URL:
+                      </span>{" "}
+                      <a href="https://gbgcscan.com" target="_blank">
+                        https://gbgcscan.com
                       </a>
                     </li>
                   </ul>
@@ -152,7 +170,11 @@ const HowToBuy = () => {
               </span>
               <span class=" whitespace-pre-line text-[13px] font-[350] md:leading-[16px] leading-[24px] font-poppins list-item ">
                 {" "}
-                Visit the Gworld platform: [Gworld URL].
+                Visit the Gworld platform:{" "}
+                <a href="https://www.mygoodway.world/" target="_blank">
+                  https://www.mygoodway.world/
+                </a>
+                .
               </span>
               <span class=" whitespace-pre-line text-[13px] font-[350] md:leading-[16px] leading-[24px] font-poppins list-item ">
                 {" "}

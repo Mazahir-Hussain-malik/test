@@ -60,7 +60,7 @@ const Tokenomics = () => {
             support sustainable growth and stability for God Token.
           </span>
           <div>
-            <img src="/graph.png" alt="" />
+            <img src="/graph.png" alt="" className=" cursor-pointer" />
           </div>
         </div>
         <div className="md:w-1/2 w-[95%] md:mx-0 mx-auto  flex flex-col gap-[2rem] ">
