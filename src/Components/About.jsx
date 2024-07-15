@@ -32,8 +32,8 @@ const About = () => {
             benefit from the robust investment strategies of Gworld.
           </p>
         </div>
-        <div className=" absolute md:block hidden  bottom-[-17%] left-[-10%] ">
-          <img src="/cube.svg" alt="" className="md:w-[100%] w-[40%]" />
+        <div className=" absolute md:block hidden  bottom-[-17%] left-[-10%]  w-[300px] ">
+          <img src="/cube.svg" alt="" className="md:w-[100%] w-[40%] " />
         </div>
       </div>
     </div>

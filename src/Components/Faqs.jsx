@@ -31,7 +31,7 @@ const Faqs = () => {
     {
       id: 2,
       heading: `   Why Choose God Token?`,
-      paragraph: ` • Daily Earnings: Enjoy the stability of daily USDT rewards.`,
+      paragraph: `  Daily Earnings: Enjoy the stability of daily USDT rewards.`,
       paragraph1: `Investment Opportunities: Benefit from Gworld's proven investment strategies.`,
       paragraph2: `Growth Potential: Potential to sell your tokens at higher prices on exchanges.`,
       paragraph3: `Community: Join a growing community of like-minded investors.`,
@@ -70,7 +70,7 @@ const Faqs = () => {
                   className={`text-[#C2C3C5] md:text-[14px] text-[16px] font-normal py-[1rem] transition-all ease-in-out delay-150 text-center   ${items.listStyle} md:px-[2rem] px-0 `}
                 >
                   <hr className="bg-[#C2C3C5]" />
-                  <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
+                  <li className="md:w-[95%]  w-[100%] my-[1rem] text-justify">
                     {items.paragraph}
                   </li>
                   <li className="md:w-[95%] text-start w-[100%] my-[1rem]">
