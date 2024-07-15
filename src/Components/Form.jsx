@@ -5,7 +5,7 @@ import Btn from "./Btn";
 const Form = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className=" max-w-[600px] relative border border-[#fff]/80   bg-[#000]  rounded-[12px] p-[1.5rem] mx-auto h-[70vh] flex  flex-col">
+    <div className=" max-w-[600px] relative border border-[#fff]/80   bg-[#000]  rounded-[12px] p-[1.5rem] mx-auto md:h-[70vh] h-auto flex  flex-col">
       <h2 className=" text-center  text-[40px] font-bold  uppercase">
         Buy and stake GOD
       </h2>
@@ -20,7 +20,7 @@ const Form = () => {
           } text-14px   flex items-center justify-center`}
           onClick={() => setActiveTab(0)}
         >
-          BNB
+          USDT
         </button>
         <button
           className={` ${
@@ -30,7 +30,7 @@ const Form = () => {
           } "text-14px flex items-center justify-center "`}
           onClick={() => setActiveTab(1)}
         >
-          SOL
+          GOD
         </button>
       </div>
 
@@ -41,28 +41,28 @@ const Form = () => {
         </div>
         <div className=" w-[95%] ml-2 bg-[#fff] h-[15px] rounded-full  my-[0.5rem]"></div>
         <div className=" flex justify-between w-[90%] mx-auto text-[12px] font-semibold">
-          <p>Softcap</p>
-          <p>Hardcap</p>
+          <p>USDT</p>
+          <p>GOD</p>
         </div>
       </div>
       <div className={`${activeTab == 0 ? "block" : "hidden "}`}>
         <div>
           <div className="my-[2rem]">
             <label htmlFor="" className=" py-2">
-              BNB
+              USDT
             </label>
             <div className="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center ">
               <input
                 id="coin-input"
                 required=""
-                placeholder="Enter BNB value"
+                placeholder="Enter USDT value"
                 className="flex-1 h-full bg-inherit outline-none text-[#FFFFFFB2]"
                 type="text"
               />
               <div className="w-[1px] h-[100%] bg-[#444444]"></div>
               <div className="flex gap-2 items-center" />
               <span className="text-[12px] text-[#FFFFFFE5] uppercase">
-                BNB
+                USDT
               </span>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Form = () => {
               <div className="w-[1px] h-[100%] bg-[#444444]"></div>
               <div className="flex gap-2 items-center" />
               <span className="text-[12px] text-[#FFFFFFE5] uppercase">
-                BNB
+                GOD
               </span>
             </div>
             <div className=" flex justify-center items-center my-8">
@@ -97,7 +97,7 @@ const Form = () => {
       </div>
       <div className={`${activeTab == 1 ? "block" : "hidden "}`}>
         <h4 class="text-[16px] font-poppins text-[#FFFFFFB2] text-center my-[1rem]">
-          Send SOL to the address below:
+          Send USDT to the address below:
         </h4>
         <div class="bg-green-900 h-[52px] rounded-[4px] border-[1px] border-[#444444] flex gap-6 p-4 items-center w-full ">
           <span class="text-[#FFFFFFB2] overflow-x-auto overflow-y-hidden">

@@ -5,7 +5,7 @@ const Tokenomics = () => {
   return (
     <>
       <div class="flex flex-col items-center gap-4 my-[2rem] py-[4rem]">
-        <span class=" text-center text-[36px] leading-[40px] md:text-[56px] md:leading-[62px]  font-machina font-bold">
+        <span class=" text-center text-[36px] leading-[40px] md:text-[56px] md:leadmd:ing-[62px]  text-[18px]  font-machina font-bold">
           Tokenomics
         </span>
         <div className=" w-[200px] h-[7px] rounded-full bg-[#0BDF0E] mx-auto"></div>
@@ -16,7 +16,7 @@ const Tokenomics = () => {
         <div class=" absolute w-[209px] h-[199px] bg-[#0BDF0E] bottom-2 left-0  blur-[200px]"></div>
 
         <div className="md:flex-1 rounded-[8px] bg-[#101010] md:max-w-[800px] w-[95%] border-[1px] border-[#BCBCBC] px-[20px] py-[40px] flex flex-col gap-6">
-          <div className="rounded-[8px] bg-secondary h-[115px] md:h-[200px] flex items-center justify-center">
+          <div className="rounded-[8px] bg-secondary h-[105px]  md:h-[100px] flex items-center justify-center">
             <div className="flex items-center">
               <img
                 alt="slart"
@@ -26,7 +26,7 @@ const Tokenomics = () => {
                 decoding="async"
                 data-nimg="1"
                 src="/logo.png"
-                className=" md:w-[200px] w-[120px]"
+                className=" md:w-[80px] w-[80px]"
               />
               <span className=" md:text-[30px] text-[20px] font-bold gradient-text">
                 GOD
@@ -59,10 +59,13 @@ const Tokenomics = () => {
             unforeseen needs. This balanced allocation strategy is designed to
             support sustainable growth and stability for God Token.
           </span>
+          <div>
+            <img src="/graph.png" alt="" />
+          </div>
         </div>
         <div className="md:w-1/2 w-[95%] md:mx-0 mx-auto  flex flex-col gap-[2rem] ">
-          <h3 class=" font-machina text-[36px] md:text-[42px] leading-[40px] md:leading-[46px]">
-            500Billion - Total Supply
+          <h3 class=" text-[18px]  font-machina  md:text-[42px] text-[24px] leading-[40px] md:leading-[46px]">
+            5 Billion - Total Supply
           </h3>
           <span class="text-[14px] md:text-[16px] font-[350] leading-[16px] font-poppins">
             GOD has a big prospect and also one of the best supply structures.
@@ -85,7 +88,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 Development
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px]  text-[18px]  font-machina">
                 10% (500,000,000 GOD)
               </span>
             </div>
@@ -108,7 +111,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 CEX Listings
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px] text-[18px]  font-machina">
                 5% (250,000,000 GOD)
               </span>
             </div>
@@ -130,7 +133,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 Treasury
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px] text-[18px]  font-machina">
                 1% (50,000,000 GOD)
               </span>
             </div>
@@ -155,7 +158,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 Rewards Pool
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px] text-[18px]  font-machina">
                 60% (3,000,000,000 GOD)
               </span>
             </div>
@@ -180,7 +183,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 Partnerships and Ecosystem Growth
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px] text-[18px]  font-machina">
                 14% (700,000,000 GOD)
               </span>
             </div>
@@ -193,7 +196,7 @@ const Tokenomics = () => {
               <span className="text-[16px] text-[#FFFFFFE5] font-[350] font-poppins">
                 Team and Advisors
               </span>
-              <span className="text-[24px] font-machina">
+              <span className="md:text-[24px] text-[18px]  font-machina">
                 10% (500,000,000 GOD)
               </span>
             </div>

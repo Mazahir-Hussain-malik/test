@@ -32,7 +32,7 @@ const Footer = () => {
     <footer className="border-t border-[#0BDF0E]">
       <div className="flex justify-around items-center md:w-[90%] w-[98%] mx-auto relative md:flex-row flex-col md:h-auto h-[450px] ">
         <div>
-          <img src="/logo.png" alt="" className=" w-[100px]" />
+          <img src="/logo.png" alt="" className=" w-[80px]" />
           <p className=" text-[14px] w-[282px] text-[#fff]/50 my-2">
             <a href="http://www.gmail.com" target="_blank">
               info@godcoin.world

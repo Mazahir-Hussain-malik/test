@@ -2,7 +2,7 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap">
+    <div className="roadmap  h-auto">
       <div className="md:my-[5rem] md:pb-0 pb-[8rem] relative ">
         <h2 className="text-[56px] text-center my-[4rem] font-semibold text-[#0BDF0E]">
           Roadmap

@@ -125,7 +125,7 @@ const Navbar = () => {
                   );
                 })}
               </div>
-              <div className="absolute bottom-[50%] left-[5%]">
+              <div className="absolute bottom-[40%] left-[5%]">
                 <div className="flex gap-[1rem] text-[24px] my-[2rem] ">
                   <a
                     href="https://t.me/KAAthePythonSOL"

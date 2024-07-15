@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" relative treasury h-screen mt-[4rem]">
+    <div className=" relative treasury md:h-screen md:my-[4rem]">
       <div className=" md:max-w-[1200px] w-[95%] md:h-[80vh] h-auto  rounded-[14px] shadow-xl mx-auto md:p-[3rem] p-[1rem]  mainDiv md:my-0 my-[2rem] relative ">
         <div className="absolute md:block hidden right-[-10%]   md:top-[-10%] top-[-4%] z-[1]">
           <img src="/star.svg" alt="" className=" w-[100%]" />
